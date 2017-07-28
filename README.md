@@ -2,8 +2,7 @@
 
 <div class="well">
 Website create in html, bootstrap and javascript.
-
-Developer: Rannel Jacob C. Bulatao
+Developer: Rannel Jacob C. Bulatao<br>
 		   BSCS-4
 
 </div>
