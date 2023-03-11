@@ -4,24 +4,24 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-html, body {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+html,
+body {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding: 10px 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
 
-@media only screen and (min-width:767px) {
-    .navbar {
-        padding: 10px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
+  .top-nav-collapse {
+    padding: 0;
+  }
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -29,48 +29,50 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    padding-top: 100px;
-    text-align: center;    
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)) ,url("../images/bg1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 50px;
-    background-attachment: fixed;
+  padding-top: 100px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url("../images/bg1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  background-attachment: fixed;
 }
-
 
 .about-section {
-    /*height: 100%;*/
-    padding-top: 100px;
-    text-align: center;
-    background: #fff;
-    padding-bottom: 100px;
+  /* height: 100%; */
+  padding-top: 100px;
+  text-align: center;
+  background: #fff;
+  padding-bottom: 100px;
 }
 .services-section {
-    /*height: 100%;*/
-    padding-top: 100px;
-    text-align: center;   
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../images/bg3.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 50px; 
+  /* height: 100%; */
+  padding-top: 100px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/bg3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
 }
 .contact-section {
-    padding-top: 100px;
-    text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url("../images/bg2.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 50px;
+  padding-top: 100px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../images/bg2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
 }
 .faqs-section {
-    padding-top: 60px;
-    text-align: center;
-    background: #fff;
-    padding-bottom: 50px;
+  padding-top: 60px;
+  text-align: center;
+  background: #fff;
+  padding-bottom: 50px;
 }
